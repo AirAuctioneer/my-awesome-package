@@ -1,19 +1,14 @@
 {
-  "name": "@airauctioneer/my-awesome-package",
   "version": "1.0.0",
-  "author": "Your Name <email@example.com>",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "my-lib",
+  "type": "module",
+  "files": ["dist"],
+  "main": "./dist/my-lib.umd.cjs",
+  "module": "./dist/my-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.js",
+      "require": "./dist/my-lib.umd.cjs"
+    }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AirAuctioneer/my-awesome-package.git"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AirAuctioneer/my-awesome-package/issues"
-  },
-  "homepage": "https://github.com/AirAuctioneer/my-awesome-package#readme",
-  "description": ""
 }
