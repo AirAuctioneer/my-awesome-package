@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "name": "my-lib",
+  "version": "1.0.1",
+  "name": "@airauctioneer/my-awesome-package",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/my-lib.umd.cjs",
@@ -10,5 +10,5 @@
       "import": "./dist/my-lib.js",
       "require": "./dist/my-lib.umd.cjs"
     }
-  },
+  }
 }
