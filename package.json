@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "@airauctioneer/my-awesome-package",
   "type": "module",
   "files": ["dist"],
