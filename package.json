@@ -1,5 +1,19 @@
 {
-  "name": "my-awesome-package",
+  "name": "@airauctioneer/my-awesome-package",
   "version": "1.0.0",
-  "author": "Your Name <email@example.com>"
+  "author": "Your Name <email@example.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirAuctioneer/my-awesome-package.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AirAuctioneer/my-awesome-package/issues"
+  },
+  "homepage": "https://github.com/AirAuctioneer/my-awesome-package#readme",
+  "description": ""
 }
