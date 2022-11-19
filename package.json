@@ -1,14 +1,14 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "@airauctioneer/my-awesome-package",
   "type": "module",
   "files": ["dist"],
-  "main": "./dist/my-lib.umd.cjs",
-  "module": "./dist/my-lib.js",
+  "main": "./umd/my-lib.umd.cjs",
+  "module": "./umd/my-lib.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./umd/my-lib.js",
+      "require": "./umd/my-lib.umd.cjs"
     }
   }
 }
